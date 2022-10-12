@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Aref+Ruqaa+Ink:wght@400;700&family=Dancing+Script:wght@400;500;600;700&family=Gemunu+Libre:wght@200&family=Roboto:wght@100;300&family=Source+Sans+Pro:wght@200&display=swap');
+* {
+  font-family: 'Alkalami', serif;
+}
+
+.navbar {
+  background-color: #d9d9db;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  position: fixed;
+}
+
+.nav-item > a {
+  color: #080000;
+}
+
+.nav-item > a:hover {
+  transform: translateX(-2px);
+  color: #602b2bf1;
+  transition: all 0.1s;
+}
+.container-fluid > a:hover {
+  transform: translateY(-5px);
+  color: #602b2bf1;
+}
+.img-arrow {
+  width: 40px;
+}
