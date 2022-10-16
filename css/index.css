@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Aref+Ruqaa+Ink:wght@400;700&family=Dancing+Script:wght@400;500;600;700&family=Gemunu+Libre:wght@200&family=Roboto:wght@100;300&family=Source+Sans+Pro:wght@200&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 * {
   font-family: 'Alkalami', serif;
 
+}
+a{
+  text-decoration: none;
 }
 
 .navbar {
@@ -15,13 +24,9 @@
 }
 
 .container.nav-current {
-  color: rgb(192, 180, 17);
+  color: rgb(237, 237, 236);
   text-transform: uppercase;
   z-index: -1;
-}
-.navbar-nav {
-  justify-content: center;
-  align-items: center;
 }
 
 .nav-item > a {
@@ -41,3 +46,7 @@
   width: 50px;
 }
 
+
+.container-path-suport :hover{
+  color: #ccc;
+}
