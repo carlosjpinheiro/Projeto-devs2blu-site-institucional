@@ -29,10 +29,11 @@ canvas {
 #particles-js { 
 	position:absolute;
 	width: 100%;
-	height: fit-content;
+	min-height: -webkit-fill-available;
 	background-color: #4c79cd;
 	background-image: url(""); 
 	background-repeat: no-repeat; 
 	background-size: cover; 
 	background-position: 50% 50%; 
 }
+
