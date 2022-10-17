@@ -42,13 +42,13 @@ loginButton.addEventListener('click', () => {
                 temAcesso = 1;
                 break
             } else {
-                alert('Senha errada!')
+                alert('Erro nas credenciais de acesso.')
                 temAcesso = 1;
                 break
             }
         } 
     }
-    if (temAcesso == 0) {alert('Usuário não encontrado!')}
+    if (temAcesso == 0) {alert('Erro nas credenciais de acesso.')}
 
     loginForm.reset()
 })
