@@ -41,3 +41,33 @@
   width: 50px;
 }
 
+/* ideia de animaçao para os containers*/
+
+.container-news {
+  width: 70vw;
+  background-color: rgb(223, 223, 245);
+  border: 1px solid rgb(12, 11, 11);
+  position: relative;
+  top: 10rem;
+  left: 4rem;
+}
+
+.container-news-mascote {
+  position: relative;
+  top: -66px;
+  z-index: -1!important;
+}
+
+.aviso {
+  text-align: start;
+  color: rgb(66, 27, 207);
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  right: -70px;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0px;
+  padding-top: 10px;
+}
+
