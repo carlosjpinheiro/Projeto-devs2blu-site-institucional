@@ -55,6 +55,7 @@ a{
 
 .nav-item > a {
   color: #ddd3d3;
+  text-align: center;
 }
 
 .nav-item > a:hover {
