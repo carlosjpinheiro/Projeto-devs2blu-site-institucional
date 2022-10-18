@@ -13,6 +13,27 @@ body{
   
 }
 
+canvas {
+	display: block;
+	vertical-align: bottom
+}
+
+/* ---- particles.js container ---- */ 
+#particles-js { 
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	background-color: #4c79cd;
+	background-image: url(""); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: 100% 100%;
+  z-index: -1;
+}
+
+
 a{
   text-decoration: none;
 }
@@ -35,6 +56,7 @@ a{
 
 .nav-item > a {
   color: #ddd3d3;
+  text-align: center;
 }
 
 .nav-item > a:hover {
