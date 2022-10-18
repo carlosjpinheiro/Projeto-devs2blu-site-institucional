@@ -22,8 +22,6 @@ cadastroButton.addEventListener('click', () => {
     sessionStorage.setItem('USUARIOS', JSON.stringify(dados));
 
     cadastroForm.reset();
-
-    console.log(sessionStorage.USUARIOS);
 })
 
 //funcao de login no sistema
@@ -38,7 +36,7 @@ loginButton.addEventListener('click', () => {
         if (emailLogin === dados[i].email) {
             if (dados[i].password === hashed(passwordLogin)) {
                 document.cookie = "logged=true";
-                trocaBotao('logout');
+                injectContent();
                 temAcesso = 1;
                 break
             } else {
@@ -64,8 +62,8 @@ function trocaBotao(estado) {
         button.innerHTML = 'Logout';
         callLogin.parentNode.replaceChild(button, callLogin)
         button.addEventListener('click', () => {
-            trocaBotao('login')
             document.cookie = "logged=false";
+            injectContent()
         })
     } else {
         let button = document.querySelector('#callLogout');
