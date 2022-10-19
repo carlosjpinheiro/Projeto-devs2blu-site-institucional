@@ -73,7 +73,7 @@ function trocaBotao(estado) {
     }
 }
 
-//funcao para gerar um hash basico da senha
+//funcao para gerar um hash basico da senha (nao seguro, apenas para demonstração)
 
 let hashed = function (string) {
     let hash = 0;

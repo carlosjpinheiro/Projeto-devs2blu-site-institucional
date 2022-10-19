@@ -1,5 +1,7 @@
 //script por Carlos J. Pinheiro
 
+//funções para troca de pagina e injecao de conteudo, mantendo botao de login/logout correto e verificando cookie
+
 async function injectContent() {
   let url = location.href;
   file = url.split('=');
@@ -20,6 +22,7 @@ async function injectContent() {
   }
 }
 
+//funcao especifica da pagina restrita
 async function injectRestrita() {
   let cookie = document.cookie;
   if(cookie == 'logged=true') {
@@ -30,6 +33,7 @@ async function injectRestrita() {
   } else{
     let div = document.createElement('div');
     div.classList = 'fs-3 fw-bold text-dark position-absolute top-50 start-50 translate-middle';
+    div.setAttribute('name','teste')
     div.innerText = 'Realize o login para acessar a área restrita';
     let inject = document.getElementById('content');
     inject.innerHTML = '';
