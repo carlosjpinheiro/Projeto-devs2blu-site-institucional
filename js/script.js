@@ -32,12 +32,15 @@ async function injectRestrita() {
     inject.innerHTML = html;
   } else{
     let div = document.createElement('div');
-    div.classList = 'fs-3 fw-bold text-dark position-absolute top-50 start-50 translate-middle';
-    div.setAttribute('name','teste')
+    let container = document.createElement('div');
+    container.classList = 'row'
+    div.classList = 'col-md-12 fs-3 fw-bold text-dark position-relative ';
+    div.setAttribute('style','padding:200px 0 50px 0')
     div.innerText = 'Realize o login para acessar a área restrita';
+    container.appendChild(div)
     let inject = document.getElementById('content');
     inject.innerHTML = '';
-    inject.appendChild(div);
+    inject.appendChild(container);
   }
 }
 
