@@ -1,3 +1,5 @@
+//script por Carlos J. Pinheiro
+
 async function injectContent() {
   let url = location.href;
   file = url.split('=');
@@ -36,5 +38,3 @@ async function injectRestrita() {
 }
 
 injectContent();
-
-ScrollReveal().reveal('#particles-js');

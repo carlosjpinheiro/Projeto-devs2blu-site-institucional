@@ -1,3 +1,5 @@
+//script por Carlos J. Pinheiro
+
 const cadastroButton = document.querySelector('.cadastroButton');
 const cadastroForm = document.querySelector('#cadastroForm');
 const loginForm = document.querySelector('#loginForm');
