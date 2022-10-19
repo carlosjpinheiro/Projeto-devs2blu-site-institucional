@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="position-absolute top-0 end-0">
+        <!-- Botoes e modais de login e cadastro -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalLogin"
+            id="callLogin">
+            Login
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="loginLabel">Acesso</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <form action="" id="loginForm" onsubmit="return false">
+                        <div class="modal-body">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="emailLogin" placeholder="name@example.com">
+                                <label for="emailLogin">Email</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="passwordLogin" placeholder="Password">
+                                <label for="passwordLogin">Senha</label>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <button type="submit" class="btn btn-primary loginButton"
+                            data-bs-dismiss="modal">Entrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCadastro">
+            Cadastre-se
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="modalCadastro" tabindex="-1" aria-labelledby="passwordLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="passwordLabel">Cadastro</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <form action="" id="cadastroForm" onsubmit="return false">
+                        <div class="modal-body">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="nomeCadastro" placeholder="nome">
+                                <label for="nomeCadastro">Nome</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="emailCadastro"
+                                    placeholder="name@example.com">
+                                <label for="emailCadastro">Email</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="passwordCadastro"
+                                    placeholder="Password">
+                                <label for="passwordCadastro">Senha</label>
+                            </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="submit" class="btn btn-primary cadastroButton" data-bs-dismiss="modal">Criar
+                        conta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="js/login.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+
+
+
+</body>
+
+</html>
