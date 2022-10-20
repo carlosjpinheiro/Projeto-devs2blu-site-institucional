@@ -3,7 +3,15 @@
 <div class="container text-center mt-5 pt-2">
     <div class="row">
         <div class="col-sm-12 pt-5">
-            <h1>Olá Informe seu Problema</h1>
+                  <h1
+        class="bg-light text-primary rounded-pill p-2"
+        style="
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+            rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+            rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        ">
+        Olá informe seu<span class="text-dark"> problema</span>
+      </h1>
         </div>
     </div>
 </div>
@@ -11,28 +19,30 @@
 <div>
     <form id="formContato" onsubmit="botaoContato()" action="">
         <div class="row">
-            <div class="col">
+            <div class="col-12 col-md-4 mt-3">
                 <input type="text" class="form-control" placeholder="Nome do Cliente" required>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-4 mt-3">
                 <input type="text" class="form-control" placeholder="Nome da Empresa" required>
             </div>
             <div class="row" style="padding-top: 10px;">
-                <div class="col">
+                <div class="col-12 col-md-12 mt-3">
                     <input type="email" id="email" class="form-control" pattern="\@\.com" size="30"
                         placeholder="E-mail" required>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-12 mt-3">
                     <input type="tel" class="form-control" pattern="[9]{1}[0-9]{8}"
                      placeholder="Numero de culular para contato. ex: 912345678" required>
                 </div>
             </div>
         </div>
         <br>
-        <div class="custom-file">
-            <label class="custom-file-label" for="customFile">Selecione o Arquivo de Log do problema</label>
-            <br>
-            <input type="file" class="custom-file-input" id="customFile" style="padding-bottom: 20px;">
+        <div class="row custom-file">
+            <div class="col-6">
+                <label class="custom-file-label" for="customFile">Selecione o Arquivo de Log do problema</label>
+                <br>
+                <input type="file" class="custom-file-input w-100 mb-4 mt-2" id="customFile">
+            </div>
         </div>
 
         <div>
@@ -41,6 +51,6 @@
             <textarea name="" id="" cols="35" rows="10" placeholder="Informações do problema"></textarea>
         </div>
 
-        <button type="submit">Enviar</button>
+        <button type="submit" class="btn btn-outline-light">Enviar</button>
     </form>
 </div>
