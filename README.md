@@ -15,25 +15,18 @@ O site é composto por 6 páginas, sendo uma restrita que muda a exibição conf
 
 A divisão do trabalho ficou como segue:
 
-Estrutura HTML
+Estrutura HTML:
 
-Início                                  Carlos
-Sobre Nós                               Osmando
-Soluções                                Osmando
-Suporte                                 Osmando
-Contato (formularios)                   Reinaldo
-Área do Cliente                         Carlos
+Início Carlos | Sobre Nós Osmando | Soluções Osmando| Suporte Osmando | Contato (formularios)Reinaldo | Área do Cliente Carlos
 
-CSS
+CSS:
 
-Estilizar e padronizar todas páginas    Diego
+Estilizar e padronizar todas páginas Diego
 
-JS
+JS:
 
-Criar injeção de conteúdos              Carlos
-Criar login e logout                    Carlos
-Interação com o sessionStorage          Carlos
+Criar injeção de conteúdos Carlos | Criar login e logout Carlos | Interação com o sessionStorage Carlos
 
-Infra
+Infra:
 
-Github admin e AWS                      Carlos
+Github admin e AWS Carlos
