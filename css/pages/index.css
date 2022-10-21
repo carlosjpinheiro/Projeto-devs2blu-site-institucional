@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Aref+Ruqaa+Ink:wght@400;700&family=Dancing+Script:wght@400;500;600;700&family=Gemunu+Libre:wght@200&family=Roboto:wght@100;300&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Alkalami', serif; */
+  
+}
+
+canvas {
+	display: block;
+	vertical-align: bottom
+}
+
+
+/* DIEGO ANIMACAO BACKGROUND */
+/* ---- particles.js container ---- */  
+#particles-js { 
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	background-color: #4c79cd;
+	background-image: url(""); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: 100% 100%;
+  z-index: -1;
+}
+
+/* Animacao mascote Footer DIEGO */
+
+.container-news {
+  width: 70vw;
+  background-color: rgb(223, 223, 245);
+  border: 1px solid rgb(12, 11, 11);
+  position: relative;
+  top: 10rem;
+  left: 4rem;
+}
+
+.container-news-mascote {
+  position: relative;
+  top: -48px;
+  z-index: -1!important;
+}
+
+.card-title.titulo  {
+  color: #00e450;
+  text-align: center;
+}
+
+.card-text.just {
+  text-align: justify;
+}
