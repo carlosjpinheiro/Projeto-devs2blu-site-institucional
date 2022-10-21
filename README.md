@@ -17,7 +17,7 @@ A divisão do trabalho ficou como segue:
 
 Estrutura HTML:
 
-Início Carlos | Sobre Nós Osmando | Soluções Osmando| Suporte Osmando | Contato (formularios)Reinaldo | Área do Cliente Carlos
+Início Carlos | Sobre Nós Osmando | Soluções Osmando| Suporte Osmando | Contato (formularios) Reinaldo | Área do Cliente Carlos | Index.html Vários colaboradores
 
 CSS:
 
@@ -25,7 +25,7 @@ Estilizar e padronizar todas páginas Diego
 
 JS:
 
-Criar injeção de conteúdos Carlos | Criar login e logout Carlos | Interação com o sessionStorage Carlos
+Criar injeção de conteúdos Carlos | Criar login e logout Carlos | Interação com o sessionStorage Carlos | Scroll Reveal Osmando | Mascote e Fundo animado Diego
 
 Infra:
 
