@@ -1,0 +1,40 @@
+
+
+/* content empresa */
+.content-sobre-nos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-sobre-nos > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 245px;
+  height: 265px;
+  border: 1px solid #ffff;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.content-sobre-nos > div > i{
+  color: #ff8000f9;
+  font-size: 30px;
+}
+
+.text-content-nos {
+  font-weight: 700;
+  color: #f0f0f0f9;
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.trabalhe-conosco{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
