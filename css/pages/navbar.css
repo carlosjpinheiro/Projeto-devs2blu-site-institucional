@@ -51,6 +51,9 @@ a {
       background-color: rgb(76, 121, 205);
       align-items: center!important;
       border: 2px solid black;
+      border-radius: 2em;
+      margin-top: 0.5em;
+      padding-bottom: 1em;
     }
 
     .nav-item.button-login {
