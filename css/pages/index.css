@@ -30,7 +30,7 @@ canvas {
 	background-image: url(""); 
 	background-repeat: no-repeat; 
 	background-size: cover; 
-	background-position: 50% 5  0%;
+	background-position: 50% 50%;
   z-index: -1;
 }
 
