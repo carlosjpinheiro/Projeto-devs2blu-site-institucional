@@ -1,6 +1,6 @@
 # Projeto-devs2blu-site-institucional
 Projeto em grupo para +Devs2Blu - Site Institucional
-Acessível em: https://dev.dyaa61xq8am9i.amplifyapp.com/
+Acessível em: https://dikendev.github.io/Projeto-devs2blu-site-institucional/
 
 Grupo:
     Carlos Pinheiro
