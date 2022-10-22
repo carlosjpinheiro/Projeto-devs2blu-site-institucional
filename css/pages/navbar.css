@@ -69,4 +69,8 @@ a {
     .row.mt-4.ajuste-mobile {
       justify-content: center!important;
     }
+
+    .img-suport-mapa {
+      width: 18rem!important;
+    }
   }
