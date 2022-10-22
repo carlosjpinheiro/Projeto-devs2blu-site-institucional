@@ -62,4 +62,7 @@ a {
     .btn.btn-outline-light.reset-style {
       margin-top: 0px!important;
     }
+    .row.mt-4.media {
+      margin-left: 0!important;
+    }
   }
