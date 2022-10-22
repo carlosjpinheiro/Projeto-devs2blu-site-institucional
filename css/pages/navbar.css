@@ -65,4 +65,8 @@ a {
     .row.mt-4.media {
       margin-left: 0!important;
     }
+
+    .row.mt-4.ajuste-mobile {
+      justify-content: center!important;
+    }
   }
